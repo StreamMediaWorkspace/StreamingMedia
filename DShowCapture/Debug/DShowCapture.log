@@ -1,0 +1,35 @@
+﻿  DShowCapture.cpp
+d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(26): warning C4005: “MAX_ERROR_TEXT_LEN”: 宏重定义
+  c:\program files (x86)\windows kits\8.1\include\um\errors.h(30): note: 参见“MAX_ERROR_TEXT_LEN”的前一个定义
+d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(49): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“TCHAR *”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(49): note: 请考虑在格式字符串中使用“%ls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(49): note: 请考虑在格式字符串中使用“%lls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(49): note: 请考虑在格式字符串中使用“%Ls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(49): note: 请考虑在格式字符串中使用“%ws”
+d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(49): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 3 拥有了类型“TCHAR *”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(49): note: 请考虑在格式字符串中使用“%ls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(49): note: 请考虑在格式字符串中使用“%lls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(49): note: 请考虑在格式字符串中使用“%Ls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(49): note: 请考虑在格式字符串中使用“%ws”
+d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(53): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“TCHAR *”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(53): note: 请考虑在格式字符串中使用“%ls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(53): note: 请考虑在格式字符串中使用“%lls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(53): note: 请考虑在格式字符串中使用“%Ls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(53): note: 请考虑在格式字符串中使用“%ws”
+d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(224): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const wchar_t *”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(224): note: 请考虑在格式字符串中使用“%ls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(224): note: 请考虑在格式字符串中使用“%lls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(224): note: 请考虑在格式字符串中使用“%Ls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(224): note: 请考虑在格式字符串中使用“%ws”
+d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(272): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const wchar_t *”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(272): note: 请考虑在格式字符串中使用“%ls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(272): note: 请考虑在格式字符串中使用“%lls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(272): note: 请考虑在格式字符串中使用“%Ls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(272): note: 请考虑在格式字符串中使用“%ws”
+d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(310): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const wchar_t *”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(310): note: 请考虑在格式字符串中使用“%ls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(310): note: 请考虑在格式字符串中使用“%lls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(310): note: 请考虑在格式字符串中使用“%Ls”
+  d:\code\mycode\dshowstudy\capture\dshowcapture\dshowcapture.cpp(310): note: 请考虑在格式字符串中使用“%ws”
+  DShowCapture.vcxproj -> D:\code\mycode\dshowstudy\Capture\Debug\DShowCapture.exe
+  DShowCapture.vcxproj -> D:\code\mycode\dshowstudy\Capture\Debug\DShowCapture.pdb (Full PDB)

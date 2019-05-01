@@ -30,6 +30,129 @@
     <ClInclude Include="..\common\Utils.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="DShowCapture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PinHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FmSinkFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\amextra.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\amfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\cache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\combase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\cprop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\ctlutil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\ddmm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\dllsetup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\dsschedule.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\fourcc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\inttypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\measure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\msgthrd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\mtype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\outputq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\pstream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\pullpin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\refclock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\reftime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\renbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\seekpt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\source.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\stdint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\streams.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\strmctl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\sysclock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\transfrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\transip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\videoctl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\vtrans.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\winctrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\winutil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\wxdebug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\wxlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vc\wxutil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleGrabberCB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -42,6 +165,24 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\common\Utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DShowCapture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PinHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FmSinkFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleGrabberCB.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

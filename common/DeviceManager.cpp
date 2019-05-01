@@ -1,11 +1,10 @@
-#include "stdafx.h"
 #include "Utils.h"
 #include "DeviceManager.h"
 
 #define PROPERTY_FRIENDLY_NAME "FriendlyName"
 
 #pragma comment(lib, "comsuppw.lib")
-#pragma comment(lib, "Strmiids.lib")
+//#pragma comment(lib, "Strmiids.lib")
 #pragma comment(lib, "Quartz.lib")
 
 DeviceManager::DeviceManager()

@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  DSoundPlayer.cpp
+  DSoundAudioRender.cpp
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(135): error C3861: “renderFrames”: 找不到标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(140): error C3861: “FlushBuffers”: 找不到标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(146): error C3861: “FlushBuffers”: 找不到标识符
+  正在生成代码...

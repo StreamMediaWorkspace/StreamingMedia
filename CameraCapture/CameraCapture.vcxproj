@@ -71,14 +71,20 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);../common/</IncludePath>
-    <SourcePath>$(VC_SourcePath);../common/</SourcePath>
+    <IncludePath>D:\code\mycode\dshowstudy\Capture\CameraCapture\include==\vc;$(IncludePath);C:\DXSDK\Include;</IncludePath>
+    <SourcePath>$(SourcePath)</SourcePath>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+    <LibraryPath>C:\DXSDK\Samples\C++\DirectShow\BaseClasses;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <SourcePath>$(SourcePath)</SourcePath>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+    <IncludePath>D:\code\mycode\dshowstudy\Capture\CameraCapture\include==\vc;C:\DXSDK\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\DXSDK\Samples\C++\DirectShow\BaseClasses;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -88,8 +94,9 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D _CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -118,6 +125,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D _CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -149,19 +157,72 @@
   <ItemGroup>
     <ClInclude Include="..\common\DeviceManager.h" />
     <ClInclude Include="..\common\Utils.h" />
+    <ClInclude Include="DeviceManager.h" />
+    <ClInclude Include="DShowCapture.h" />
+    <ClInclude Include="FmSinkFilter.h" />
+    <ClInclude Include="include\vc\amextra.h" />
+    <ClInclude Include="include\vc\amfilter.h" />
+    <ClInclude Include="include\vc\cache.h" />
+    <ClInclude Include="include\vc\combase.h" />
+    <ClInclude Include="include\vc\cprop.h" />
+    <ClInclude Include="include\vc\ctlutil.h" />
+    <ClInclude Include="include\vc\ddmm.h" />
+    <ClInclude Include="include\vc\dllsetup.h" />
+    <ClInclude Include="include\vc\dsschedule.h" />
+    <ClInclude Include="include\vc\fourcc.h" />
+    <ClInclude Include="include\vc\inttypes.h" />
+    <ClInclude Include="include\vc\measure.h" />
+    <ClInclude Include="include\vc\msgthrd.h" />
+    <ClInclude Include="include\vc\mtype.h" />
+    <ClInclude Include="include\vc\outputq.h" />
+    <ClInclude Include="include\vc\pstream.h" />
+    <ClInclude Include="include\vc\pullpin.h" />
+    <ClInclude Include="include\vc\refclock.h" />
+    <ClInclude Include="include\vc\reftime.h" />
+    <ClInclude Include="include\vc\renbase.h" />
+    <ClInclude Include="include\vc\seekpt.h" />
+    <ClInclude Include="include\vc\source.h" />
+    <ClInclude Include="include\vc\stdint.h" />
+    <ClInclude Include="include\vc\streams.h" />
+    <ClInclude Include="include\vc\strmctl.h" />
+    <ClInclude Include="include\vc\sysclock.h" />
+    <ClInclude Include="include\vc\transfrm.h" />
+    <ClInclude Include="include\vc\transip.h" />
+    <ClInclude Include="include\vc\videoctl.h" />
+    <ClInclude Include="include\vc\vtrans.h" />
+    <ClInclude Include="include\vc\winctrl.h" />
+    <ClInclude Include="include\vc\winutil.h" />
+    <ClInclude Include="include\vc\wxdebug.h" />
+    <ClInclude Include="include\vc\wxlist.h" />
+    <ClInclude Include="include\vc\wxutil.h" />
+    <ClInclude Include="PinHelper.h" />
+    <ClInclude Include="SampleGrabberCB.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Utils.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\common\DeviceManager.cpp" />
+    <ClCompile Include="..\common\DeviceManager.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="..\common\Utils.cpp" />
-    <ClCompile Include="CameraCapture.cpp" />
+    <ClCompile Include="CameraCapture.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DeviceManager.cpp" />
+    <ClCompile Include="DShowCapture.cpp" />
+    <ClCompile Include="FmSinkFilter.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="PinHelper.cpp" />
+    <ClCompile Include="SampleGrabberCB.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

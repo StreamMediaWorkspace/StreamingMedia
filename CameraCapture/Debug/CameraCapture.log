@@ -1,1 +1,7 @@
-﻿
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of DeviceManager.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\common\DeviceManager.cpp, DeviceManager.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of Utils.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\common\Utils.cpp, Utils.cpp.
+  SampleGrabberCB.cpp
+Debug\DeviceManager.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+Debug\Utils.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  CameraCapture.vcxproj -> D:\code\mycode\dshowstudy\Capture\Debug\CameraCapture.exe
+  CameraCapture.vcxproj -> D:\code\mycode\dshowstudy\Capture\Debug\CameraCapture.pdb (Full PDB)

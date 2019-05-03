@@ -150,7 +150,7 @@
     <ClInclude Include="Utils.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SampleGrabberCB.h">
+    <ClInclude Include="CallbackObject.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -182,7 +182,7 @@
     <ClCompile Include="Utils.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SampleGrabberCB.cpp">
+    <ClCompile Include="CallbackObject.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

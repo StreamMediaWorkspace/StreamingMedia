@@ -1,7 +1,29 @@
 ﻿  stdafx.cpp
   DSoundPlayer.cpp
   DSoundAudioRender.cpp
-d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(135): error C3861: “renderFrames”: 找不到标识符
-d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(140): error C3861: “FlushBuffers”: 找不到标识符
-d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(146): error C3861: “FlushBuffers”: 找不到标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(139): error C3861: “FlushBuffers”: 找不到标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(145): error C3861: “FlushBuffers”: 找不到标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(194): error C2065: “TsPacketBuffer”: 未声明的标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(194): error C2146: 语法错误: 缺少“;”(在标识符“packets”的前面)
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(194): error C2065: “packets”: 未声明的标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(195): error C2065: “m_fillCountPer”: 未声明的标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(196): error C2653: “CLDTS”: 不是类或命名空间名称
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(196): error C2065: “TsMetaData”: 未声明的标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(196): error C2146: 语法错误: 缺少“;”(在标识符“mixedAudioMeta”的前面)
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(196): error C2065: “mixedAudioMeta”: 未声明的标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(199): error C2065: “packets”: 未声明的标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(199): error C2065: “mixedAudioMeta”: 未声明的标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(199): error C3861: “GetMixedPacketBuffer”: 找不到标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(208): error C2065: “TsPacketBuffer”: 未声明的标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(208): error C2146: 语法错误: 缺少“;”(在标识符“packet2AEC”的前面)
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(208): error C2065: “packet2AEC”: 未声明的标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(208): error C2065: “packets”: 未声明的标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(210): error C2653: “CLDTS”: 不是类或命名空间名称
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(210): error C3861: “instace”: 找不到标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(210): error C2228: “.Dispatch”的左边必须有类/结构/联合
+  d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(210): note: 类型是“unknown-type”
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(210): error C2065: “packet2AEC”: 未声明的标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(210): error C2065: “mixedAudioMeta”: 未声明的标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(215): error C2065: “packets”: 未声明的标识符
+d:\code\mycode\dshowstudy\capture\dsoundplayer\dsoundaudiorender.cpp(215): error C3861: “FillAudioData”: 找不到标识符
   正在生成代码...

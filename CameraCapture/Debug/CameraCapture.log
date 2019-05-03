@@ -1,7 +1,28 @@
 ﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of DeviceManager.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\common\DeviceManager.cpp, DeviceManager.cpp.
 C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of Utils.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\common\Utils.cpp, Utils.cpp.
-  SampleGrabberCB.cpp
+  stdafx.cpp
+  FmSinkFilter.cpp
+  CameraCapture.cpp
+  DeviceManager.cpp
+d:\code\mycode\dshowstudy\capture\common\devicemanager.cpp(85): warning C4474: printf: 格式字符串中传递的参数太多
+  d:\code\mycode\dshowstudy\capture\common\devicemanager.cpp(85): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+  正在生成代码...
+  Utils.cpp
+  PinHelper.cpp
+  DShowCapture.cpp
+d:\code\mycode\dshowstudy\capture\cameracapture\dshowcapture.cpp(104): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 10 拥有了类型“GUID”
+d:\code\mycode\dshowstudy\capture\cameracapture\dshowcapture.cpp(255): warning C4002: “CHECK_HR”宏的实参太多
+d:\code\mycode\dshowstudy\capture\cameracapture\dshowcapture.cpp(257): warning C4002: “CHECK_HR”宏的实参太多
+d:\code\mycode\dshowstudy\capture\cameracapture\dshowcapture.cpp(269): warning C4002: “CHECK_HR”宏的实参太多
+d:\code\mycode\dshowstudy\capture\cameracapture\dshowcapture.cpp(273): warning C4002: “CHECK_HR”宏的实参太多
+d:\code\mycode\dshowstudy\capture\cameracapture\dshowcapture.cpp(277): warning C4002: “CHECK_HR”宏的实参太多
+  DeviceManager.cpp
+d:\code\mycode\dshowstudy\capture\cameracapture\devicemanager.cpp(103): warning C4474: printf: 格式字符串中传递的参数太多
+  d:\code\mycode\dshowstudy\capture\cameracapture\devicemanager.cpp(103): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+  CallbackObject.cpp
+  Utils.cpp
+  正在生成代码...
 Debug\DeviceManager.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
 Debug\Utils.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
-  CameraCapture.vcxproj -> D:\code\mycode\dshowstudy\Capture\Debug\CameraCapture.exe
-  CameraCapture.vcxproj -> D:\code\mycode\dshowstudy\Capture\Debug\CameraCapture.pdb (Full PDB)
+DShowCapture.obj : error LNK2019: 无法解析的外部符号 "void __stdcall DeleteMediaType(struct _AMMediaType *)" (?DeleteMediaType@@YGXPAU_AMMediaType@@@Z)，该符号在函数 "public: int __thiscall DShowCapture::EnumCaps(void)" (?EnumCaps@DShowCapture@@QAEHXZ) 中被引用
+D:\code\mycode\dshowstudy\Capture\Debug\CameraCapture.exe : fatal error LNK1120: 1 个无法解析的外部命令

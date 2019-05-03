@@ -157,6 +157,7 @@
   <ItemGroup>
     <ClInclude Include="..\common\DeviceManager.h" />
     <ClInclude Include="..\common\Utils.h" />
+    <ClInclude Include="CallbackObject.h" />
     <ClInclude Include="DeviceManager.h" />
     <ClInclude Include="DShowCapture.h" />
     <ClInclude Include="FmSinkFilter.h" />
@@ -196,7 +197,6 @@
     <ClInclude Include="include\vc\wxlist.h" />
     <ClInclude Include="include\vc\wxutil.h" />
     <ClInclude Include="PinHelper.h" />
-    <ClInclude Include="SampleGrabberCB.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Utils.h" />
@@ -206,6 +206,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\common\Utils.cpp" />
+    <ClCompile Include="CallbackObject.cpp" />
     <ClCompile Include="CameraCapture.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
@@ -215,7 +216,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="PinHelper.cpp" />
-    <ClCompile Include="SampleGrabberCB.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

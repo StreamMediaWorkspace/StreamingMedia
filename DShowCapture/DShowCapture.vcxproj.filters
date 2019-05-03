@@ -27,15 +27,39 @@
     <ClInclude Include="CallbackObject.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="DShowHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DShowCapture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PinHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="DShowCapture.cpp">
+    <ClCompile Include="DShowHelper.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CallbackObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DShowCapture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PinHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
